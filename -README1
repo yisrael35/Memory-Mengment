@@ -1,0 +1,33 @@
+
+
+name : yisrael bar 
+
+explaintion:
+its a simultion of system memory mengment , how the system load the process to memory and have page table , that we dont need to bring all fages at ones,
+where we keep all the file we edited...
+
+
+to compile:
+press ctrl +shift+b
+
+to run the program: 
+press ctrl+f5
+or throw the terminal and write ./ex4
+
+the files of program ex4:
+makefile,folder(.vscode),exec_file,swap file
+main.cpp, ‫‪sim_mem.cpp sim_mem.h
+
+input:
+ sim_mem mem_sm("exec_file", "swap_file" ,text_size, data_size, bss_size,heap_stack_size, num_of_pages, page_size); 
+mem_sm.load(7);
+store( 98,'X');  
+mem_sm.load(98);
+
+output: 
+in the first case the output be accordingly to the exe file
+in case of the last one the output wiil be X
+
+
+
+
