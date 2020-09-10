@@ -10,8 +10,8 @@ using namespace std;
 #define MEMORY_SIZE 100
 char main_memory[MEMORY_SIZE];
 /*yisrael bar 02-05/06/20 
-id 205462948
- */
+
+*/
 
 
 
